@@ -1,6 +1,8 @@
-package main
+package essential
 
-import "fmt"
+import (
+	"fmt"
+)
 
 // Here are some global variables
 const (
@@ -86,9 +88,10 @@ func newAndMake() {
 
 func main() {
 	fmt.Println("hellow!")
-	//declareVals()
-	//declareArr()
-	//sliceUsage()
+	declareVals()
+	declareArr()
+	sliceUsage()
 	declareMap()
-	//newAndMake()
+	newAndMake()
+	Greater(1, 0)
 }
