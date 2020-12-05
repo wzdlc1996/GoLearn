@@ -86,7 +86,7 @@ func newAndMake() {
 	fmt.Println("The returned value of make(slice)", mkslc, ", and its lengths/ caps", len(mkslc), "/", cap(mkslc))
 }
 
-func main() {
+func init() {
 	fmt.Println("hellow!")
 	declareVals()
 	declareArr()
