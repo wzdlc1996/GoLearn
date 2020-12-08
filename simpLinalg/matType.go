@@ -58,3 +58,16 @@ func (mat *Matrix) product(mm Matrix) Matrix {
 	}
 	return nm
 }
+
+// Vector is the vector inherit from Matrix
+type Vector struct {
+	Matrix
+	leng float32
+	norm float32
+}
+
+func (vec *Vector) getNorm() float32 {
+	vec.init(3, 1)
+	fmt.Println(vec.lenx)
+	return 0.
+}
